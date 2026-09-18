@@ -12,7 +12,7 @@ Bring metaprogramming into Go.
 
 Define a reusable Go template in a `*.metago` file:
 
-```go
+```gotemplate
 {{/* stringer.metago */}}
 {{ define "stringer" }}
 func (v {{ name . }}) String() string {
